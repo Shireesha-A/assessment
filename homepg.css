@@ -112,9 +112,9 @@ main{
 }
 
 .sect1 a{
-    border:1px solid blue;
+    border:1px solid darkorange;
     color:white;
-    border-block-start-color: turquoise
+    border-block-start-color:yellow;
 }
 
 #sec2 li{
