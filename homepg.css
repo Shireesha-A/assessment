@@ -18,9 +18,16 @@ header{
 
 }
 h1{
+<<<<<<< HEAD
     text-align: left;
     padding-top:20px;
     padding-left:50px;
+=======
+     text-align: left;
+    padding-top:20px;
+    padding-left:50px;
+    
+>>>>>>> d5f9781e9420599f11fd61dea1326619138abdce
     font-size:90px;
 
 }
@@ -107,10 +114,16 @@ main{
 }
 
 .sect1 a{
+<<<<<<< HEAD
     border:2px solid darkorange;
     color:white;
     border-block-start-color: gold;
     cursor: pointer;
+=======
+    border:1px solid darkorange;
+    color:white;
+    border-block-start-color:yellow;
+>>>>>>> d5f9781e9420599f11fd61dea1326619138abdce
 }
 
 #sec2 li{
