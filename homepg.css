@@ -2,8 +2,6 @@ body{
     font-size:22px;
     text-align:center;
     margin-top:10px;
-    border:1px solid white;
-    padding:10px 10px;
     background-color:rgb(70,70,70);
     color:#E94B3CFF;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
@@ -11,7 +9,7 @@ body{
     
 }
 header{
-    background-image:url();
+    background-image:url("https://image.freepik.com/free-photo/many-books-black-background_1160-355.jpg");
     background-repeat:  no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
@@ -20,7 +18,9 @@ header{
 
 }
 h1{
+    text-align: left;
     padding-top:20px;
+    padding-left:50px;
     font-size:90px;
 
 }
@@ -29,13 +29,7 @@ a{
     box-sizing:initial;
     text-decoration:none;
 }
-img{
-    float:right;
-    height:55%;
-    width:40%;
-    padding-right: 40px;
-    border-radius:20px;
-}
+
 
 nav{
     padding-top:-40%;
@@ -52,6 +46,7 @@ nav a {
     padding-left:80px;
     text-decoration: none;
 }
+
 nav a:hover{
     color:palegreen;
 }
@@ -112,14 +107,17 @@ main{
 }
 
 .sect1 a{
-    border:1px solid blue;
+    border:2px solid darkorange;
     color:white;
-    border-block-start-color: turquoise
+    border-block-start-color: gold;
+    cursor: pointer;
 }
 
 #sec2 li{
     display:inline;
     padding-left:2px;
+    cursor: pointer;
+    
 }
 .sect1 :hover{
     background-color:yellow;
