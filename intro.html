@@ -179,16 +179,14 @@
             console.log("Reverse string : ",string_reverse("peter piper picked pickled peppers",'p'));
             
             function numInStr(arr){
-                res=[];
-                for(i=0;i<arr.length;i++){
-                    if(arr[i].match(([/^[A-Za-z0-9][A-Za-z0-9 ]\*[A-Za-z0-9]\*$/]))){
-                        res.append(arr[i]);
-                        
+                for(let i=0.;i<str5.length;i++){
+                    if(!isNaN(str5.charAt(i))){
+                        return str5;
                     }
                 }
-               return res; 
+                return false;
             }
-            console.log(numInStr(["front","top","remove"]));
+            console.log(numInStr("str15"));
         </script>
        
         
